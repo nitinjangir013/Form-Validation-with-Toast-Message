@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Form Validation with Toast Message Using Jquery</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+
+<!-- **************************** Form element *************************  -->
+
+      <div class="form_container">
+        <div class="userimage">
+          <img src="https://i.postimg.cc/Dzq5YCkk/user.png" alt="svg icon...">
+          <h1>Login</h1>
+        </div>
+        <div class="gmail-input-container">
+          <label>Gmail</label><br>
+          <input id="gmail_input" type="text" name="gmail" placeholder="Enter your gmail...">
+          <div id="error_gmail"></div>
+          <img src="https://i.postimg.cc/6q6HZCPs/wrong.png" alt="" id="right">
+        </div>
+        <div class="gmail-input-container">
+          <label>Password</label><br>
+          <input id="password_input" type="password" name="password" placeholder="Enter your password...">
+          <div class="password_status_container">
+            <div class="password_status">
+              <div class="current_status"></div>
+              <div class="current_status"></div>
+              <div class="current_status"></div>
+              <div class="current_status"></div>
+            </div>
+            <h4 id="status_name"></h4>
+          </div>
+        </div>
+        <div class="conditon_container">
+          <span>
+            <input id="checkbox" type="checkbox"><label id="remember" for="">Remember me</label>
+          </span>
+          <a class="forgotpass" href="#">Forgot password?</a>
+        </div>
+        <button id="submit_btn">Submit</button>
+      </div>
+    </div>
+
+<!-- **************************** Toast message element *************************  -->
+
+    <div class="toast_container">
+      
+    </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
